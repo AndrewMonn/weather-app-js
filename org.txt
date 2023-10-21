@@ -1,0 +1,16 @@
+fuentes :
+
+https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap
+
+Icons :
+
+<script src="https://kit.fontawesome.com/1f8e19e13b.js" crossorigin="anonymous"></script>
+
+Weather API url :
+
+http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}
+
+Weather API Key :
+
+46d0ab0c8a4e0b1bdcf8ac04ba4e0be2
+
