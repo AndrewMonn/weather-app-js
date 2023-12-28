@@ -8,6 +8,7 @@
 
 body {
   height: 100dvh;
+  width: 100dvw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,7 +152,6 @@ body {
   width: 100%;
   text-align: center;
   margin-top: 50px;
-  scale: 0;
   opacity: 0;
   display: none;
 }
@@ -169,7 +169,6 @@ body {
 
 .weather-box,
 .weather-details {
-  scale: 0;
   opacity: 0;
 }
 
@@ -180,7 +179,6 @@ body {
 
 @keyframes fadeIn {
   to {
-    scale: 1;
     opacity: 1;
   }
 }
